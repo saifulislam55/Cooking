@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+
+    margin: 0%;
+}
+
+body {
+
+    background-image: url(IMG\ COOKING\ BLUR.png);
+    height: 3000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+.all-body-parent {
+
+    height: 3000px;
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 95%;
+    margin-top: 30px;
+    border-radius: 33PX;
+}
+
+.container {
+
+    height: 700px;
+}
+
+nav {
+
+    height: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+ul {
+
+    display: flex;
+    list-style: none;
+}
+
+li {
+
+    padding-left: 25px;
+    font-size: 17;
+    font-weight: 600;
+}
+
+.hero-sec {
+
+    height: 600px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.hero-box {
+
+    width: 50%;
+    height: 600px;
+    align-content: center;
+}
+
+.hero-box-2 {
+
+    width: 50%;
+    height: 600px;
+    align-content: center;
+
+}
+
+.hero-box h2 {
+
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.hero-box button {
+
+    margin-left: 50px;
+    width: 160px;
+    height:40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+    border-top-right-radius: 50px;
+}
+
+button .material-symbols-outlined {
+
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.food-icons {
+
+    height: 140px;
+    width:400px;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.food-icons .material-symbols-outlined {
+
+    font-size: 42px;
+    background-color: rgba(240, 255, 255, 0.466);
+    height:60px;
+    width: 60px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.second-section {
+
+    width: 100%;
+    height: 500PX;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.second-sec-box-1 {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-sec-box-2 {
+
+    width: 50%;
+    align-content: center;
+}
+
+.second-sec-box-2 h2 {
+
+    font-size: 30px;
+}
+
+.second-sec-box-2 p {
+
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.indian-curry {
+
+    height: 350px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 33px;
+
+}
+
+.indian-curry h4 {
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.indian-curry p {
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 20px;
+}
+
+.indian-curry h5 {
+
+    margin-left: 20px;
+}
+
+.indian-curry img {
+
+    margin-top: 15px;
+    
+}
+
+.head-icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:200px;
+    height: 26px;
+}
+
+
+
+.head-icon .material-symbols-outlined:hover {
+
+    color: rgb(250, 0, 83);
+
+}
+
+
+.head-icon .material-symbols-outlined {
+
+
+    width:25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.39);
+    align-content: center;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 19px;
+
+}
+
+.third-section {
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.third-box-sec-1 {
+
+    width: 50%;
+    
+}
+
+.third-box-sec-2 {
+
+    width: 50%;
+}
+
+.third-box-sec-1 h2 {
+
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 48px;
+
+}
+
+.third-box-sec-1 p {
+
+    margin-left: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.playstore-sec {
+
+    height: 600px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.playstore-sec-1 {
+
+    width: 50%;
+    align-content: center;
+
+}
+
+.playstore-sec-2 {
+
+    width: 50%;
+}
+
+.playstore-sec-2 p {
+
+    line-height: 30px;
+    margin-left: 25px;
+}
+
+.playstore-sec-2 h2 {
+
+    line-height: 70px;
+    margin-left: 22px;
+    font-size: 30px;
+}
+
+.app-logos {
+
+    margin-left: 20px;
+}
+
+.secnd-last {
+
+    height: 400px;
+    align-content: center;
+}
+
+.secnd-last h2 {
+
+
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.talk {
+
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 30px;
+    color: rgb(44, 44, 44);
+
+}
+
+.text {
+
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 350px;
+    color: #303030;
+    line-height: 28px;
+}
+
+.head-btn {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-btn button {
+
+    margin-right: 30px;
+    width: 200px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+hr {
+
+    margin-left: 30px;
+    margin-right: 30px;
+    border: black;
+    border: 1px solid;
+}
+
+.footer {
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.FOOTER-BOX-1 {
+
+    width: 35%;
+    margin-left: 30px;
+}
+
+.FOOTER-BOX-1 p {
+
+    font-size: 12px;
+}
+
+.FOOTER-BOX-2 ul {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.FOOTER-BOX-2 {
+
+    width: 20%;
+
+}
+
+.FOOTER-BOX-2 h3 {
+
+    margin-bottom: 25px;
+}
+
+.FOOTER-BOX-2 p {
+
+    font-size: 14px;
+    line-height: 28px;
+}
